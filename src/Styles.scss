@@ -1,0 +1,75 @@
+.Capa {
+  display: flex;
+  justify-content: center;
+  margin: 5% 25px -100px 0px;
+  width: 100%;
+  height: 160px;
+  border-radius: 5px;
+  .Foto-Capa {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .imgPerfil {
+    border-radius: 100%;
+    border: 5px solid #fff;
+    position: absolute;
+    width: 134px;
+    height: 134px;
+  }
+}
+.titles {
+  text-align: center;
+  .title {
+    font: normal normal 600 27px/33px Montserrat;
+  }
+  .subtitle {
+    font: normal normal normal 13px/16px Montserrat;
+  }
+}
+section,
+.contatos {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 20px;
+  height: 100px;
+  // background-color: rebeccapurple;
+  .contact-style {
+    text-align: center;
+    font: normal normal 600 12px/15px Montserrat;
+  }
+}
+
+.active {
+  background: #000 !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+main{
+  .grid-content {
+    gap: 50px !important;
+    height: 550px;
+    max-height: 2000px;
+    width: 100%;
+    display: flex;
+    // background-color: rebeccapurple;
+    .grid-image {
+      display: inline-block;
+      border-radius: 15px;
+      width: 200px;
+    height: 215px;
+    margin-bottom: -40px;
+    text-align: center;
+    color: #fff;
+  } 
+}
+    .grid-image2{
+      display: inline-block;
+      border-radius: 15px;
+      width: 220px;
+      margin-bottom: -50px;
+      text-align: center;
+      color: #fff;
+    }
+}
