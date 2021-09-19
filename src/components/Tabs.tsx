@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Tabs, Tab, Box, Typography} from '@material-ui/core'
+import { Tabs, Tab, Box} from '@material-ui/core'
 import ContentTab1 from '../pages/contentTab1';
 import ContentTab2 from '../pages/contentTab2';
 import ContentTab3 from '../pages/contentTab3';
