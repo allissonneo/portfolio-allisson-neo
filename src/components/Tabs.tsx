@@ -24,7 +24,7 @@ function TabPanel(props: TabPanelProps) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          <div>{children}</div>
         </Box>
       )}
     </div>
@@ -47,19 +47,17 @@ export default function TabList() {
 
   return (
     <section>
-      {/* <Box sx={{ maxWidth: 480, bgcolor: 'background.paper' }}> */}
       <Tabs
         value={value}
         onChange={handleChange}
         variant="scrollable"
         scrollButtons="auto"
-      // aria-label="scrollable auto tabs example"
+      
       >
         <Tab label="Certificados"{...a11yProps(0)} onClick={()=> setActive(0)} className={active === 0?"active":"tabLayout"} />
         <Tab label="Conhecimentos"{...a11yProps(1)}onClick={()=> setActive(1)} className={active === 1?"active":"tabLayout"} />
         <Tab label="Repositórios"{...a11yProps(2)} onClick={()=> setActive(2)} className={active === 2?"active":"tabLayout"} />
       </Tabs>
-      {/* </Box> */}
 
       <main>
         <TabPanel value={value} index={0}>

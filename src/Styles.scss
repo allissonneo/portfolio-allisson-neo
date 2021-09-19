@@ -18,6 +18,9 @@
     height: 134px;
   }
 }
+.tabLayout {
+  color: #fff !important;
+}
 .titles {
   text-align: center;
   .title {
@@ -27,49 +30,67 @@
     font: normal normal normal 13px/16px Montserrat;
   }
 }
-section,
-.contatos {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  margin-top: 20px;
-  height: 100px;
-  // background-color: rebeccapurple;
-  .contact-style {
-    text-align: center;
-    font: normal normal 600 12px/15px Montserrat;
+section {
+  height: max-content;
+  .contatos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+    height: 100px;
+    // background-color: rebeccapurple;
+    .contact-style {
+      text-align: center;
+      font: normal normal 600 12px/15px Montserrat;
+    }
   }
 }
-
 .active {
   background: #000 !important;
   border-radius: 5px !important;
   font-weight: bold !important;
 }
-main{
+h2,
+main {
+  text-shadow: 0.1em 0.1em 0.05em #333;
   .grid-content {
     gap: 50px !important;
     height: 550px;
     max-height: 2000px;
     width: 100%;
     display: flex;
-    // background-color: rebeccapurple;
+    padding-bottom: 120px !important;
     .grid-image {
       display: inline-block;
       border-radius: 15px;
       width: 200px;
-    height: 215px;
-    margin-bottom: -40px;
-    text-align: center;
-    color: #fff;
-  } 
-}
-    .grid-image2{
-      display: inline-block;
-      border-radius: 15px;
-      width: 220px;
-      margin-bottom: -50px;
+      margin-bottom: -40px;
       text-align: center;
       color: #fff;
     }
+  }
+  .grid-image2 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 220px;
+    margin-bottom: -50px;
+    text-align: center;
+    color: #fff;
+  }
+}
+.grid-image, .grid-image2, .contactImage {
+  align-self: flex-end;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.bounce:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+0%   { transform: translateY(0); }
+50%  { transform: translateY(-15px); }
+100% { transform: translateY(0); }
 }

@@ -5,7 +5,7 @@ import React from 'react';
 const Titles: React.FC = () => {
     return (
         <div className="titles">
-        <h2 className = "title">Allisson Néo</h2>
+        <h1 className = "title">Allisson Néo</h1>
         <p className = "subtitle">Full Stack Developer</p>
         </div>
     );
