@@ -14,7 +14,7 @@ const ContentTab1: React.FC = () => {
         <h4>VTEX</h4>
         </a>
         <a target = "_blank" href="https://imgur.com/a/iUUNJ0B" rel="noreferrer" className = "grid-image bounce" >
-        <img className = 'grid-image bounce' src="https://media-exp1.licdn.com/dms/image/C4D0BAQFa3VqmdEbv1w/company-logo_200_200/0/1572629889910?e=2159024400&v=beta&t=rUBQtn_Qvz_MNcNS8aeIvXWGiqC6J3VUDZP8GUZ8XG8" alt="logo core" />
+        <img className = 'grid-image bounce' src="https://www.amvo.org.mx/wp-content/uploads/2020/02/Corebiz.jpg" alt="logo core" />
         <h4>Corebiz</h4>
         </a>
         <a target = "_blank" href="https://imgur.com/a/iUUNJ0B" rel="noreferrer" className = "grid-image bounce">
