@@ -28,7 +28,7 @@ const Projects = () => {
       title: "Portfolio Dev",
       description: "Meu portfólio pessoal com React e SCSS.",
       image: "/assets/portfolio.jpeg",
-      link: "https://my-portfolio-mu-seven-12.vercel.app/"
+      link: "https://portfolio-allisson-neo.vercel.app/"
     },
     {
       title: "E-commerce",
