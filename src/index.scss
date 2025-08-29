@@ -195,8 +195,8 @@ header {
     transition: all 0.2s ease-in-out;
     box-shadow: #878ea1 0px 0px 2px 0px;
     &:hover {
+        cursor: pointer;
         background-color: #333645;
-        cursor: default;
         transform: scale(1.05);
         transition: all 0.2s ease-in-out;
     }
@@ -214,6 +214,7 @@ header {
     text-align: left;
     color: #e2e4e9;
 }
+
 @media (max-width: 768px) {
     header .profile-container .profile-name {
         font-family: "Inconsolata", monospace;
