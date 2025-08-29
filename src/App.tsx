@@ -1,17 +1,29 @@
-import './Global.scss';
+import React from 'react';
 import Header from './components/Header';
-import Contacts from './components/Contacts';
-import TabList from './components/Tabs';
-
-
+import SetDown from './components/SetDown';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+// import './index.css'
 function App() {
   return (
-    <>
-    <Header/>
-    <Contacts/>
-    <TabList/>
-    </>
-  );
-}
+    <div className="header-container-pai">
+      <div className='header-container-filho'>
+        <Header />
+      </div>
+      <div>
+        <SetDown />
+      </div>
+      <div>
+        <Projects />
+      </div>
+      <div>
+        <Footer/>
+      </div>
+    </div>
+    );
+  }
+      {/* <Hero /> */}
+      {/* <About /> */}
+      {/* <Footer /> */}
 
 export default App;
